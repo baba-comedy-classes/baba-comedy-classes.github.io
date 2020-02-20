@@ -16,6 +16,9 @@
 
   // Animate to section when nav is clicked
   $('header a').click(function(e) {
+    // close mobile menu if open
+    $('header, body').removeClass('active');
+
     // Treat as normal link if no-scroll class
     if ($(this).hasClass('no-scroll')) return;
 
