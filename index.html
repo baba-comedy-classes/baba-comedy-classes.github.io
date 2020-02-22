@@ -215,6 +215,23 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
+                        <img src="images/project-calendar.png" />
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Calendar Program (2007)</h3>
+                        <p>
+                        With a scripting language, first time I imagined an object oriented programming approach, I was thinking
+                        in terms of pattern, 3 days continuous day night work, resulting into a concept that how many patterns (classes)
+                        are possible and then I need to serve them, accordingly to make a complete calendar program.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
                         <img src="images/project-corel.jpg" />
                     </div>
 
@@ -336,6 +353,37 @@
                 </div>
 
 
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project-php.png" />
+                    </div>
+
+                    <div class="project-info">
+                        <h3>PHP Projects (2015)</h3>
+                        <p>
+                        PHP was very popular that time, I handeled projects on many frameworks and CMS like CodeIgniter, Drupal, Laravel, Wordpress etc. 
+                        Customizing wordpress was the quickest solution and to create enterprise level service Laravel was having best coding practices.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project-nodejs.png" />
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Agnular, React, Node.js Projects (2017)</h3>
+                        <p>
+                        When world of webistes changed from dynamic to realtime, front end frameworks played perfect role in managing
+                        huge and highly organized web applications and with websocket two syncing made it realtime. I handled multiple
+                        projects on Angular, React, Material Designs, Socket.io, MongoDB, Node.js etc.
+                        </p>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>
@@ -418,11 +466,12 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121678301-4"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-121678301-4');
+    if (window.location.href.match('bskwifi.github.io')) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-121678301-4');
+    }
     </script>
 
 </body>
