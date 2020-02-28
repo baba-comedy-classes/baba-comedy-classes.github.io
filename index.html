@@ -518,7 +518,7 @@
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        &copy; 2020 Bhalendra Singh Katiyar
+                        &copy; <span id="copyrightCurrentYear">2020</span> Bhalendra Singh Katiyar
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -557,6 +557,11 @@
     <!-- End footer -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+      $(function(){
+        $('#copyrightCurrentYear').text(new Date().getFullYear());  // Update year in copyright
+      });
+    </script>
     <script src="js/scripts.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121678301-4"></script>
